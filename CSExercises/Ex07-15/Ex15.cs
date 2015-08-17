@@ -11,7 +11,7 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             Console.WriteLine("Please enter a 3-digit integer:");
-            int w, a, b, c, d;
+            int w, a, b, c;
             w = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(w);
             a = w / 100;
