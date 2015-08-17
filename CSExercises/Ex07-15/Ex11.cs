@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Please enter the distance you have travelled:");
+            Double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Your total fare is: {0} $",2.4+0.4*x);
+
         }
     }
 }
