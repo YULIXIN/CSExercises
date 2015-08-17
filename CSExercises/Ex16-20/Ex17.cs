@@ -24,7 +24,6 @@ namespace CSExercises
                 }
                 else if (C > 0 && C < 40) ;
                 Console.WriteLine("Good Morning Mr." + A);
-
             }
             else if(B=="F")
              {
