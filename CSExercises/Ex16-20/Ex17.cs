@@ -22,8 +22,8 @@ namespace CSExercises
                 {
                     Console.WriteLine("Good Morning Uncle " + A);
                 }
-                else if (C > 0 && C < 40) ;
-                Console.WriteLine("Good Morning Mr." + A);
+                else if (C > 0 && C < 40)
+                    Console.WriteLine("Good Morning Mr." + A);
             }
             else if(B=="F")
              {
@@ -31,8 +31,8 @@ namespace CSExercises
                  {
                      Console.WriteLine("Good Morning Aunty " + A);
                  }
-                 else if (C > 0 && C < 40) ;
-                Console.WriteLine("Good Morning Ms." + A);
+                 else if (C > 0 && C < 40)
+                    Console.WriteLine("Good Morning Ms." + A);
             }
             else if(B!="M"&&B!="F")
                 Console.WriteLine("You have typed the wrong information");
